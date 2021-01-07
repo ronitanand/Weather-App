@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(245, 238, 238);
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    background-image: url('https://cdn.mos.cms.futurecdn.net/dzw5DkXqEpRWVgDv7Das6n-1200-80.jpg');
+   background-size:cover; 
+    background-attachment:fixed;
+    background-position:top center ;
+    
+    
+
+}
+.weather{
+    margin: 0 auto;
+    max-width: 480px;
+    text-align: center;
+      padding-top: 40px;
+}
+.search{
+    width: 75%;
+    border-radius: 8px 0px 8px 0px;
+    border: none;
+    border-bottom: 5px solid orange;
+    text-align: center;
+    font-size:20px;
+    padding: 5px  0;
+    
+    
+}
+.location{
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 35px;
+}
+.date{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.temp{
+    margin-top: 40px;
+    font-weight: 900;
+    font-size: 100px;
+
+}
+.rain{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.search:focus{
+    outline-style: none;
+    border-style: none;
+    border-bottom: 5px solid orange;
+    color: black;
+    
+    
+    
+}
+
